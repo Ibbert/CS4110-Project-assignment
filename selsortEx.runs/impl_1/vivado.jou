@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Oct 14 10:47:16 2024
+# Process ID: 14536
+# Current directory: D:/Documents/Travail/ENSSAT/3A/USN/selsortEx/selsortEx.runs/impl_1
+# Command line: vivado.exe -log selsort.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source selsort.tcl -notrace
+# Log file: D:/Documents/Travail/ENSSAT/3A/USN/selsortEx/selsortEx.runs/impl_1/selsort.vdi
+# Journal file: D:/Documents/Travail/ENSSAT/3A/USN/selsortEx/selsortEx.runs/impl_1\vivado.jou
+# Running On: PC-Claire, OS: Windows, CPU Frequency: 1800 MHz, CPU Physical cores: 4, Host memory: 8463 MB
+#-----------------------------------------------------------
+source selsort.tcl -notrace
