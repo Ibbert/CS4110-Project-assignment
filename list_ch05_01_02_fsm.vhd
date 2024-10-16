@@ -156,9 +156,9 @@ begin
              ctr_addr_mux<="00";       -- sel addr from left elements cnt
              if (tx_done='1') then
                  inc_ec <= '1';
-                 state_nxt <= S10;
+                 state_nxt <= S9;
               else
-                state_nxt <= S9;
+                state_nxt <= S10;
              end if;
                  
       end case;
