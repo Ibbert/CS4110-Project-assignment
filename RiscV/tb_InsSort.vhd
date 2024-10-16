@@ -26,8 +26,8 @@ constant rx_data_ascii_null: std_logic_vector(7 downto 0) := x"00"; -- receive N
 
 Component selsort
 Port ( reset, clk: in std_logic;
-           rx:      in std_logic;
-           tx:     out std_logic);
+           din:      in std_logic;
+           dout:     out std_logic);
 end Component;
 
 signal clk, reset: std_logic;
