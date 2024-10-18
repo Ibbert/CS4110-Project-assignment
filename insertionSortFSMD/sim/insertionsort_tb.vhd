@@ -3,11 +3,11 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity selsort_tb is
+entity inssort_tb is
    -- Port ();
-end selsort_tb;
+end inssort_tb;
 
-architecture arch of selsort_tb is
+architecture arch of inssort_tb is
 constant clk_period : time := 10 ns;
 constant bit_period : time := 52083ns; -- time for 1 bit.. 1bit/19200bps = 52.08 us
 
@@ -23,7 +23,7 @@ constant rx_data_ascii_9: std_logic_vector(7 downto 0) := x"39"; -- receive 9
 constant rx_data_ascii_enter: std_logic_vector(7 downto 0) := x"0D"; -- receive Enter
 constant rx_data_ascii_tab: std_logic_vector(7 downto 0) := x"0B"; -- receive Enter
 
-Component selsort
+Component inssort
 Port ( reset, clk: in std_logic;
            rx:      in std_logic;
            tx:     out std_logic);
@@ -34,7 +34,7 @@ signal srx, stx: std_logic;
 
 begin
 
-    uut: selsort
+    uut: inssort
     Port Map(clk => clk, reset => reset, 
               rx => srx, tx => stx);
     
