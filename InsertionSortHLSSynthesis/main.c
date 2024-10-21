@@ -1,4 +1,7 @@
-
+// MAIN REQUIRE CHANGE TO SUIT OUR PROJECT (Accoding to Adrian)
+// CHATGPT IS RECOMMENDED, BUT NOT ADVICED (According to Trond)
+// USE FIR-FILTER AS A TEMPLATE FOR THE HLS SYNTHESIS TASK (According to Professor Jose)
+// TL;DR - May God help us.
 
 #include "platform.h"
 #include "xfir.h"
