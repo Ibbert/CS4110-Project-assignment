@@ -8,8 +8,7 @@
 #include "xil_printf.h"
 #include "xparameters.h"
 
-int main()
-{
+int main() {
     print("\n\rFIR Filter\n\r>");
 
     XFir fir =
