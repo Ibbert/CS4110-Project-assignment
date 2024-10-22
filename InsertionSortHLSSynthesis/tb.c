@@ -1,23 +1,30 @@
-#include "fir.h"
+#include "is.h"
 #include <stdio.h>
 
-int main() {
-    uint8_t arr[8] = {4, 3, 5, 1, 2, 7, 6, 0};  // Example array to be sorted
-    uint8_t sorted[8];
+// I wrote this code, only God and I knew how it worked.
+// Now, only God knows. 
+// You will see full result when debugging or spamming runs.
 
-    printf("\nBefore sorting: ");
-    for (int i = 0; i < 8; i++) {
-        printf("%c ", arr[i]);
+int main() {
+    int N = 12;  // Define the size of the array
+    int arr[] = {9, 10, 2, 1, 0, 3, 5, 6, 4, 8, 11, 7};  // Example unsorted array
+
+    // Before sorting
+    printf("Before sorting: ");
+    for(int i = 0; i < N; i++) {
+        printf("%d ", arr[i]);
     }
+    printf("\n");
 
     // Call the insertion sort function
-    insertionSort(arr, sorted);
+    is(arr, N);
 
-    printf("\nAfter sorting: ");
-    for (int i = 0; i < 8; i++) {
-        printf("%c ", sorted[i]);
+    // After sorting
+    printf("After sorting: ");
+    for(int i = 0; i < N; i++) {
+        printf("%d ", arr[i]);
     }
-
     printf("\n");
+
     return 0;
 }
