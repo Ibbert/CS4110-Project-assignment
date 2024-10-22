@@ -1,8 +1,7 @@
 #include "fir.h"
 #include <stdio.h>
 
-int main()
-{
+int main() {
     uint8_t arr[8] = {4, 3, 5, 1, 2, 7, 6, 0};  // Example array to be sorted
     uint8_t sorted[8];
 
