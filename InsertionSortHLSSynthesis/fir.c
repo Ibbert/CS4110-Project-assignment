@@ -21,8 +21,10 @@ void insertionSort(uint8_t arr[], uint8_t* output) {
         arr[j + 1] = key;
     }
 
+    /*
     // Copy the sorted array to the output (optional)
     for (i = 0; i < N; i++) {
         output[i] = arr[i];
     }
+    */
 }
