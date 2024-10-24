@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_InsertionSortASIP_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_InsertionSortASIP" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="212.527 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="360"></NameColumnWidth>
+      <ValueColumnWidth column_width="164"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/tb_InsertionSortASIP/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_InsertionSortASIP/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_InsertionSortASIP/uut/pc_in" type="array">
+      <obj_property name="ElementShortName">pc_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_InsertionSortASIP/uut/pc_out" type="array">
+      <obj_property name="ElementShortName">pc_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_InsertionSortASIP/uut/pc_mux_ctr" type="logic">
+      <obj_property name="ElementShortName">pc_mux_ctr</obj_property>
+      <obj_property name="ObjectShortName">pc_mux_ctr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_InsertionSortASIP/uut/control/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_InsertionSortASIP/uut/dreg/dr_wr_ctr" type="logic">
+      <obj_property name="ElementShortName">dr_wr_ctr</obj_property>
+      <obj_property name="ObjectShortName">dr_wr_ctr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_InsertionSortASIP/uut/dreg/dwr_addr" type="array">
+      <obj_property name="ElementShortName">dwr_addr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">dwr_addr[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_InsertionSortASIP/uut/dreg/dr1_addr" type="array">
+      <obj_property name="ElementShortName">dr1_addr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">dr1_addr[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_InsertionSortASIP/uut/dreg/dr2_addr" type="array">
+      <obj_property name="ElementShortName">dr2_addr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">dr2_addr[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_InsertionSortASIP/uut/dreg/dwr_din" type="array">
+      <obj_property name="ElementShortName">dwr_din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dwr_din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_InsertionSortASIP/uut/dreg/dr1_dout" type="array">
+      <obj_property name="ElementShortName">dr1_dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dr1_dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_InsertionSortASIP/uut/dreg/dr2_dout" type="array">
+      <obj_property name="ElementShortName">dr2_dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dr2_dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_InsertionSortASIP/uut/dreg_mux_ctr" type="logic">
+      <obj_property name="ElementShortName">dreg_mux_ctr</obj_property>
+      <obj_property name="ObjectShortName">dreg_mux_ctr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_InsertionSortASIP/uut/alu/valin_hi" type="array">
+      <obj_property name="ElementShortName">valin_hi[7:0]</obj_property>
+      <obj_property name="ObjectShortName">valin_hi[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_InsertionSortASIP/uut/alu/valin_lo" type="array">
+      <obj_property name="ElementShortName">valin_lo[7:0]</obj_property>
+      <obj_property name="ObjectShortName">valin_lo[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_InsertionSortASIP/uut/alu/alu_dout" type="array">
+      <obj_property name="ElementShortName">alu_dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_dout[7:0]</obj_property>
+   </wvobject>
+      <wvobject fp_name="/tb_InsertionSortASIP/uut/alu/alu_bool" type="logic">
+      <obj_property name="ElementShortName">alu_bool</obj_property>
+      <obj_property name="ObjectShortName">alu_bool</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_InsertionSortASIP/uut/alu/alu_zero" type="logic">
+      <obj_property name="ElementShortName">alu_zero</obj_property>
+      <obj_property name="ObjectShortName">alu_zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_InsertionSortASIP/uut/dreg/ram" type="array">
+      <obj_property name="ElementShortName">ram[7:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">ram[7:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_InsertionSortASIP/uut/dmem/dm_wr_ctr" type="logic">
+      <obj_property name="ElementShortName">dm_wr_ctr</obj_property>
+      <obj_property name="ObjectShortName">dm_wr_ctr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_InsertionSortASIP/uut/dmem/dm_addr" type="array">
+      <obj_property name="ElementShortName">dm_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dm_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_InsertionSortASIP/uut/dmem/dm_din" type="array">
+      <obj_property name="ElementShortName">dm_din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dm_din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_InsertionSortASIP/uut/dmem/ram[0:10]" type="array">
+      <obj_property name="ElementShortName">[0:10][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[0:10][7:0]</obj_property>
+   </wvobject>
+
+</wave_config>
