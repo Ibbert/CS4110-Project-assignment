@@ -31,10 +31,6 @@
       <obj_property name="ElementShortName">pc_in[7:0]</obj_property>
       <obj_property name="ObjectShortName">pc_in[7:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_InsertionSortASIP/uut/pc_out" type="array">
-      <obj_property name="ElementShortName">pc_out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">pc_out[7:0]</obj_property>
-   </wvobject>
    <wvobject fp_name="/tb_InsertionSortASIP/uut/pc_mux_ctr" type="logic">
       <obj_property name="ElementShortName">pc_mux_ctr</obj_property>
       <obj_property name="ObjectShortName">pc_mux_ctr</obj_property>
@@ -43,37 +39,13 @@
       <obj_property name="ElementShortName">opcode[6:0]</obj_property>
       <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_InsertionSortASIP/uut/dreg/dr_wr_ctr" type="logic">
-      <obj_property name="ElementShortName">dr_wr_ctr</obj_property>
-      <obj_property name="ObjectShortName">dr_wr_ctr</obj_property>
-   </wvobject>
    <wvobject fp_name="/tb_InsertionSortASIP/uut/dreg/dwr_addr" type="array">
       <obj_property name="ElementShortName">dwr_addr[2:0]</obj_property>
       <obj_property name="ObjectShortName">dwr_addr[2:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_InsertionSortASIP/uut/dreg/dr1_addr" type="array">
-      <obj_property name="ElementShortName">dr1_addr[2:0]</obj_property>
-      <obj_property name="ObjectShortName">dr1_addr[2:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_InsertionSortASIP/uut/dreg/dr2_addr" type="array">
-      <obj_property name="ElementShortName">dr2_addr[2:0]</obj_property>
-      <obj_property name="ObjectShortName">dr2_addr[2:0]</obj_property>
-   </wvobject>
    <wvobject fp_name="/tb_InsertionSortASIP/uut/dreg/dwr_din" type="array">
       <obj_property name="ElementShortName">dwr_din[7:0]</obj_property>
       <obj_property name="ObjectShortName">dwr_din[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_InsertionSortASIP/uut/dreg/dr1_dout" type="array">
-      <obj_property name="ElementShortName">dr1_dout[7:0]</obj_property>
-      <obj_property name="ObjectShortName">dr1_dout[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_InsertionSortASIP/uut/dreg/dr2_dout" type="array">
-      <obj_property name="ElementShortName">dr2_dout[7:0]</obj_property>
-      <obj_property name="ObjectShortName">dr2_dout[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_InsertionSortASIP/uut/dreg_mux_ctr" type="logic">
-      <obj_property name="ElementShortName">dreg_mux_ctr</obj_property>
-      <obj_property name="ObjectShortName">dreg_mux_ctr</obj_property>
    </wvobject>
    <wvobject fp_name="/tb_InsertionSortASIP/uut/alu/valin_hi" type="array">
       <obj_property name="ElementShortName">valin_hi[7:0]</obj_property>
@@ -95,17 +67,9 @@
       <obj_property name="ElementShortName">alu_zero</obj_property>
       <obj_property name="ObjectShortName">alu_zero</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_InsertionSortASIP/uut/dreg/ram" type="array">
+   <wvobject fp_name="/tb_InsertionSortASIP/uut/dreg/ram[0:7]" type="array">
       <obj_property name="ElementShortName">ram[7:0][7:0]</obj_property>
       <obj_property name="ObjectShortName">ram[7:0][7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_InsertionSortASIP/uut/dmem/dm_wr_ctr" type="logic">
-      <obj_property name="ElementShortName">dm_wr_ctr</obj_property>
-      <obj_property name="ObjectShortName">dm_wr_ctr</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_InsertionSortASIP/uut/dmem/dm_addr" type="array">
-      <obj_property name="ElementShortName">dm_addr[7:0]</obj_property>
-      <obj_property name="ObjectShortName">dm_addr[7:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/tb_InsertionSortASIP/uut/dmem/dm_din" type="array">
       <obj_property name="ElementShortName">dm_din[7:0]</obj_property>
