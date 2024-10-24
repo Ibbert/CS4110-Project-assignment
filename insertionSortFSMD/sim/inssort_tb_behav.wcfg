@@ -27,29 +27,9 @@
       <obj_property name="ElementShortName">reset</obj_property>
       <obj_property name="ObjectShortName">reset</obj_property>
    </wvobject>
-   <wvobject fp_name="/inssort_tb/srx" type="logic">
-      <obj_property name="ElementShortName">srx</obj_property>
-      <obj_property name="ObjectShortName">srx</obj_property>
-   </wvobject>
-   <wvobject fp_name="/inssort_tb/stx" type="logic">
-      <obj_property name="ElementShortName">stx</obj_property>
-      <obj_property name="ObjectShortName">stx</obj_property>
-   </wvobject>
    <wvobject fp_name="/inssort_tb/uut/ctr_path_unit/state_reg" type="other">
       <obj_property name="ElementShortName">state_reg</obj_property>
       <obj_property name="ObjectShortName">state_reg</obj_property>
-   </wvobject>
-   <wvobject fp_name="/inssort_tb/uut/ctr_path_unit/lec_value" type="array">
-      <obj_property name="ElementShortName">lec_value[7:0]</obj_property>
-      <obj_property name="ObjectShortName">lec_value[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/inssort_tb/uut/ctr_path_unit/rec_value" type="array">
-      <obj_property name="ElementShortName">rec_value[7:0]</obj_property>
-      <obj_property name="ObjectShortName">rec_value[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/inssort_tb/uut/ctr_path_unit/ec_value" type="array">
-      <obj_property name="ElementShortName">ec_value[7:0]</obj_property>
-      <obj_property name="ObjectShortName">ec_value[7:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/inssort_tb/uut/ctr_path_unit/ler_value" type="array">
       <obj_property name="ElementShortName">ler_value[7:0]</obj_property>
@@ -63,14 +43,6 @@
       <obj_property name="ElementShortName">addr[7:0]</obj_property>
       <obj_property name="ObjectShortName">addr[7:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/inssort_tb/uut/ram_unit/din" type="array">
-      <obj_property name="ElementShortName">din[7:0]</obj_property>
-      <obj_property name="ObjectShortName">din[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/inssort_tb/uut/ram_unit/wr" type="logic">
-      <obj_property name="ElementShortName">wr</obj_property>
-      <obj_property name="ObjectShortName">wr</obj_property>
-   </wvobject>
          <wvobject fp_name="/inssort_tb/uut/ctr_path_unit/new_min" type="logic">
       <obj_property name="ElementShortName">new_min</obj_property>
       <obj_property name="ObjectShortName">new_min</obj_property>
@@ -79,7 +51,7 @@
       <obj_property name="ElementShortName">dout[7:0]</obj_property>
       <obj_property name="ObjectShortName">dout[7:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/inssort_tb/uut/ram_unit/ram" type="array">
+   <wvobject fp_name="/inssort_tb/uut/ram_unit/ram[10:0]" type="array">
       <obj_property name="ElementShortName">ram[10:0][7:0]</obj_property>
       <obj_property name="ObjectShortName">ram[10:0][7:0]</obj_property>
    </wvobject>
