@@ -55,9 +55,9 @@ architecture arch of imem is
 	  x"F8000E",  -- addr 1d: 	J    -8			# 11111000(imm) 000(rs2=  ) 000 (rs1=  ) 000(rd=  ) 0001110
 	  x"000905",  -- addr 1e: 	INC  R2			# 00000000(imm) 000(rs2=  ) 010 (rs1=R2) 010(rd=R2) 0000101
 	  x"F52810",  -- addr 1f: 	BLT  R2,R1,-11	# 11110101(imm) 001(rs2=R1) 010 (rs1=R2) 000(rd=  ) 0010000
-	  x"000100",  -- addr 20: 	LD   R2,0		# 00000000(imm) 000(rs2=  ) 000 (rs1=  ) 010(rd=R2) 0000000
-	  x"000982",  -- addr 21: 	LD   R3,0(R2)	# 00000000(imm) 000(rs2=  ) 010 (rs1=R2) 011(rd=R3) 0000010      
-
+	   
+	  x"FFFFFF",  -- addr 20: (void)
+	  x"FFFFFF",  -- addr 21: (void)   
 	  x"FFFFFF",  -- addr 22: (void)
 	  x"FFFFFF",  -- addr 23: (void)
 	  x"FFFFFF",  -- addr 24: (void)
