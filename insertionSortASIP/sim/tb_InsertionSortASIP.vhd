@@ -2,10 +2,10 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
  
-ENTITY tb_insertionSort IS
-END tb_insertionSort;
+ENTITY tb_InsertionSortASIP IS
+END tb_InsertionSortASIP;
  
-ARCHITECTURE behavior OF tb_insertionSort IS 
+ARCHITECTURE behavior OF tb_InsertionSortASIP IS 
  
     -- Component Declaration for the Unit Under Test (UUT) 
     COMPONENT InsertionSortASIP
