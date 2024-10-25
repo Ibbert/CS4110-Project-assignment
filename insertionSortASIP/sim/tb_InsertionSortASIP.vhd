@@ -2,13 +2,13 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
  
-ENTITY tb_OneCycleCPU IS
-END tb_OneCycleCPU;
+ENTITY tb_insertionSort IS
+END tb_insertionSort;
  
-ARCHITECTURE behavior OF tb_OneCycleCPU IS 
+ARCHITECTURE behavior OF tb_insertionSort IS 
  
     -- Component Declaration for the Unit Under Test (UUT) 
-    COMPONENT OneCycleCPU
+    COMPONENT InsertionSortASIP
     PORT(clk, rst: in std_logic);
     END COMPONENT;
     
