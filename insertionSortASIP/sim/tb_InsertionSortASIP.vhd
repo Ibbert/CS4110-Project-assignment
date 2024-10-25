@@ -23,7 +23,7 @@ ARCHITECTURE behavior OF tb_InsertionSortASIP IS
 BEGIN
  
 	-- Instantiate the Unit Under Test (UUT)
-   uut: OneCycleCPU PORT MAP (
+   uut: InsertionSortASIP PORT MAP (
           clk => clk,
           rst => rst );
 
