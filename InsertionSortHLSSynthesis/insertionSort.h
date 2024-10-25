@@ -2,7 +2,8 @@
 #define INSERTIONSORT_H
 
 #include <stdint.h>
+#define N 8
 
-int* insertionSort(int tab[], int N);
+void insertionSort(const uint8_t input[N],uint8_t output[N]);
 
 #endif
