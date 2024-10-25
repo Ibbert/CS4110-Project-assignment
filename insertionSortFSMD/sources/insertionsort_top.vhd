@@ -36,7 +36,7 @@ architecture str_arch of inssort is
 
 begin
 
-   baud_gen_unit: entity work.mod_m(arch)
+   baud_gen_unit: entity work.mod_m_counter(arch)
       generic map(M=>DVSR, N=>DVSR_BIT)
       port map(
 	  clk=>clk, reset=>reset,
