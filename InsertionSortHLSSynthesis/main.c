@@ -13,9 +13,7 @@
 int main()
 {
     init_platform();
-
     printf("\nInsertion sorting\n\r");
-
     XInsertionsort insertsort =
     {
         // XPAR_XFIR_0_BASEADDR might need to be changed. 
@@ -28,7 +26,6 @@ int main()
     XInsertionsort_Config* const config = XInsertionsort_LookupConfig(XPAR_XSLCR_0_DEVICE_ID);
     const int ret = XInsertionsort_CfgInitialize(&insertsort, config);
     Xil_AssertNonvoid(ret == XST_SUCCESS);
-
     XInsertionsort_DisableAutoRestart(&insertsort);
 
     char c_table[2*N_max];
@@ -37,14 +34,6 @@ int main()
     while(1) {
         const char c= inbyte();
         if(c=='\r'){
-            printf("list:%s \n",c_table);
-            printf("one by one:\n");
-            int k=0;
-            while (c_table[k] !='\0'){                
-                printf("k:%d ;%c\n",k,c_table[k]);
-                k++;
-            }
-
             int int_array[N_max];
             for (k=c_cnt;k<2*N_max;k++){
                 c_table[k]=NULL;
@@ -54,12 +43,9 @@ int main()
             int cnt=0;
             while (token!=NULL & token!='\0'){
                 int_array[cnt]=atoi(token);
-                printf("newtoken:%s  :atoi:%d : cnt:%d\n",token,int_array[cnt],cnt);
                 token=strtok(NULL,",");
                 cnt++;
             }
-            printf("cnt:%d!\n",cnt);
-            printf("blo\n");
             if(XInsertionsort_IsIdle(&insertsort))
             {
                 XInsertionsort_Set_tab(&insertsort, c);
@@ -81,7 +67,6 @@ int main()
         }else{
             c_table[c_cnt]=c;
             c_cnt++;
-            printf("strlen:%d ;len-1: %c\n",strlen(c_table),c_table[strlen(c_table)-1]);
         }
     }
     cleanup_platform();
