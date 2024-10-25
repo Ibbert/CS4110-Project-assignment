@@ -87,7 +87,7 @@ begin
 	  );
 
 	  
-   ram_unit: entity work.x_ram(arch)
+   ram_unit: entity work.xilinx_one_port_ram_sync(arch)
       generic map(ADDR_WIDTH=>RAM_ADDR_WIDTH, DATA_WIDTH=>RAM_DATA_WIDTH)
       port map(
       clk=>clk, wr=>wr,
